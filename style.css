@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* corps de la page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0d0d;
+    color: #e8e8e0;
+    line-height: 1.7;
+}
+
+/* liens */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    border-bottom: 1px solid #2a2a2a;
+    position: sticky;
+    top: 0;
+    background-color: #0d0d0d;
+}
+
+*/ Logo */
+.logo {
+    font-size: 1.2rem;
+    color: #c8f060;
+}
+
+/* Liste de navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+/* Liens de navigation */
+nav ul a {
+    color: #666;
+    font-size: 0.85rem;
+    transition: color 0.3s;
+}
+
+nav ul a:hover {
+    color: #e8e8e0;
+}
+
+/* HERO */
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+/* Contenu du hero */
+.hero-contenu {
+    max-width: 700px;
+}
+
+/* petit tag au dessus */
+.hero-tag {
+    color: #c8f060;
+    font-size: 0.85rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* titre principal */
+#hero h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+/* Nom en couleur */
+#hero h1 span {
+    color: #c8f060 ;
+}
+
+/* Description */ 
+.hero-descriptioon {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+}
+
+.hero-photo img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #c8f060;
+}
+
+/* Boutons */
+.hero-boutons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-principal {
+    padding: 0.8rem 2rem;
+    background-color: #c8f060;
+    color: #0d0d0d;
+    font-size: 0.85rem;
+}
+
+btn-secondaire {
+    padding: 0.8rem 2rem;
+    border: 1px solid #2a2a2a;
+    color: #e8e8e0;
+    font-size: 0.85rem;
+}
+
+.btn-secondaire:hover {
+    border-color: #e8e8e0;
+}
+
+/* section competences */
+#competences {
+    padding: 6rem 3rem;
+    background-color: #161616;
+}
+
+/* Titre de section */
+#competences h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+/* La grille */
+.competences-grille {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 800px;
+}
+
+/* Chaque carte */
+.carte-competence {
+    padding: 2rem;
+    border: 1px solid #2a2a2a;
+    background-color: #0d0d0d;
+    transition: border-color 0.3s;
+}
+
+.carte-competence:hover {
+    border-color: #c8f060;
+}
+
+/* Titre de la carte */
+.carte-competence h3 {
+    color: #c8f060;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Description */
+.carte-competence p {
+    color: #666;
+    font-size: 0.85rem;
+}
+
+*/ Footer contact */
+#contact {
+    padding: 6rem 3rem;
+    text-align: center;
+}
+
+/* Titre */
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Description */ 
+#contact p {
+    color: #666;
+    margin-bottom: 2.5rem;
+}
+
+/* Liens de contact */
+.contact-liens {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-liens a {
+    padding: 0.8rem 2rem;
+    border: 1px solid #2a2a2a;
+    color: #e8e8e0;
+    font-size: 0.85rem;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.contact-liens a:hover {
+    border-color: #c8f060;
+    color: #c8f060;
+}
+
+/* Copyright */
+.copyright {
+    color: #666;
+    font-size: 0.75rem;
+    border-top: 1px solid #2a2a2a;
+    padding-top: 2rem;
+}
